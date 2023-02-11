@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "test",
+  "version": "${version}",
+  "name": "Test",
+  "description": "",
+  "authors": [
+    "kolaps"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/test/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ru.kolaps.test.client.TestClient"
+    ],
+    "main": [
+      "ru.kolaps.test.Test"
+    ]
+  },
+  "mixins": [
+    "test.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
